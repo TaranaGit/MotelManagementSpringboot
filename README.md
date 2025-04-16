@@ -75,10 +75,9 @@ A robust and scalable backend application for managing motel room data. This sys
 - Maven
 - MySQL (optional; H2 is supported by default)
 - IDE like IntelliJ or Eclipse
-
 ### Running Locally
-
 ```bash
+
 # Clone the repository
 git clone git@github.com:TaranaGit/MotelManagementSpringboot.git
 cd hotel-room-management
@@ -88,5 +87,8 @@ mvn clean install
 
 # Run the application
 mvn spring-boot:run
+```
 
-### System 
+### System Architecture Diagram
+
+![System Architecture](./system.png)
